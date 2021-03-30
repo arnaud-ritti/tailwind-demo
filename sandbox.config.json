@@ -3,6 +3,9 @@
   "hardReloadOnChange": false,
   "view": "browser",
   "template": "node",
-  "node": "12",
-  "startScript": "start"
+  "container": {
+    "node": "12",
+    "port": 3000,
+    "startScript": "start"
+  }
 }
