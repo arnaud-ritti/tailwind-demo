@@ -12,13 +12,11 @@
   },
   "author": "",
   "license": "ISC",
-  "browserslist": [
-    "defaults"
-  ],
+  "browserslist": ["defaults"],
   "dependencies": {
-    "@babel/preset-env": "7.13.12",
     "@symfony/webpack-encore": "^1.1.2",
     "autoprefixer": "^10.2.5",
+    "babel-plugin-transform-runtime": "6.23.0",
     "concurrently": "^6.0.0",
     "postcss": "^8.2.8",
     "postcss-custom-properties": "^11.0.0",
@@ -29,5 +27,6 @@
     "serve": "11.3.2",
     "tailwindcss": "^2.0.4",
     "webpack-notifier": "^1.6.0"
-  }
+  },
+  "keywords": []
 }
