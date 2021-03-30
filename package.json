@@ -16,6 +16,7 @@
     "defaults"
   ],
   "dependencies": {
+    "@babel/preset-env": "7.13.12",
     "@symfony/webpack-encore": "^1.1.2",
     "autoprefixer": "^10.2.5",
     "concurrently": "^6.0.0",
