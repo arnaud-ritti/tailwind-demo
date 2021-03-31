@@ -10,7 +10,7 @@
     "watch": "encore dev --watch",
     "start": "concurrently \"npm:watch\" \"npm:serve\""
   },
-  "author": "",
+  "author": "ADELIOM",
   "license": "ISC",
   "browserslist": ["defaults"],
   "dependencies": {
