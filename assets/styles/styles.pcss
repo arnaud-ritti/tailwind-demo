@@ -1,7 +1,14 @@
-@import "tailwindcss/base";
+@import 'tailwind-before.pcss';
+@import 'base.pcss';
+@import 'components.pcss';
+@import 'tailwind-after.pcss';
 
-@import "partials/typography.pcss";
+/**
+* Include styles for individual pages
+*/
+@import 'pages/homepage.pcss';
 
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
+/**
+* Include vendor css.
+*/
+@import 'vendors.pcss';

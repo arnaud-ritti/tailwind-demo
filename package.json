@@ -2,7 +2,7 @@
   "name": "tailwind-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "serve": "node server.js",
     "build:dev": "encore dev",
@@ -12,19 +12,25 @@
   },
   "author": "ADELIOM",
   "license": "ISC",
-  "browserslist": ["defaults"],
+  "browserslist": [
+    "defaults"
+  ],
   "dependencies": {
     "@symfony/webpack-encore": "^1.1.2",
     "autoprefixer": "^10.2.5",
     "babel-plugin-transform-runtime": "6.23.0",
     "concurrently": "^6.0.0",
     "postcss": "^8.2.8",
+    "postcss-at-rules-variables": "0.3.0",
     "postcss-custom-properties": "^11.0.0",
+    "postcss-each": "1.0.0",
+    "postcss-each-variables": "0.3.0",
     "postcss-import": "^14.0.0",
     "postcss-loader": "^5.2.0",
     "postcss-nested": "^5.0.5",
     "postcss-preset-env": "^6.7.0",
     "serve": "11.3.2",
+    "speed-measure-webpack-plugin": "1.5.0",
     "tailwindcss": "^2.0.4",
     "webpack-notifier": "^1.6.0"
   },

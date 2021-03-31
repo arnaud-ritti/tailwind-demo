@@ -4362,6 +4362,11 @@ portfinder@^1.0.28:
     debug "^3.1.1"
     mkdirp "^0.5.5"
 
+postcss-at-rules-variables@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/postcss-at-rules-variables/-/postcss-at-rules-variables-0.3.0.tgz#b51bb34c4a0b926204b60be2b43b44e74457706c"
+  integrity sha512-TmzLAG17XTsRYSqcpk96zXie+oU30Tn0F5f8mgSD3JagIAmhWUH7/3CLxY8XL8BhqiIjGiCSMuolIxwB4TE4NA==
+
 postcss-attribute-case-insensitive@^4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/postcss-attribute-case-insensitive/-/postcss-attribute-case-insensitive-4.0.2.tgz#d93e46b504589e94ac7277b0463226c68041a880"
@@ -4513,6 +4518,21 @@ postcss-double-position-gradients@^1.0.0:
   dependencies:
     postcss "^7.0.5"
     postcss-values-parser "^2.0.0"
+
+postcss-each-variables@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/postcss-each-variables/-/postcss-each-variables-0.3.0.tgz#8b72940dbdfc0a87456190224e4e8b8268340324"
+  integrity sha512-WZLxE4pk0tAkNNFyH1g9iESZWV3cbksjTr9lokGj/Pw4VbaaO9bcfcNr1ciHOWJfdFSOfLBj0WdYzgzNmRD8fg==
+  dependencies:
+    postcss "^6.0.1"
+    reduce-function-call "^1.0.2"
+
+postcss-each@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-each/-/postcss-each-1.0.0.tgz#6cdbd63ad31fee3868fd1eb4ab01345ba3a5ba38"
+  integrity sha512-BiEZqzp6fFUG7oO9n4wzDDJKoG7SrgSidJox+bXtL+kGSaBVEY2rlaaZGktCgEkGHQMwbCdOgUCbydUJnBtSmg==
+  dependencies:
+    postcss-simple-vars "^5.0.0"
 
 postcss-env-function@^2.0.2:
   version "2.0.2"
@@ -4963,6 +4983,13 @@ postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
     uniq "^1.0.1"
     util-deprecate "^1.0.2"
 
+postcss-simple-vars@^5.0.0:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-simple-vars/-/postcss-simple-vars-5.0.2.tgz#e2f81b3d0847ddd4169816b6d141b91d51e6e22e"
+  integrity sha512-xWIufxBoINJv6JiLb7jl5oElgp+6puJwvT5zZHliUSydoLz4DADRB3NDDsYgfKVwojn4TDLiseoC65MuS8oGGg==
+  dependencies:
+    postcss "^7.0.14"
+
 postcss-svgo@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/postcss-svgo/-/postcss-svgo-4.0.2.tgz#17b997bc711b333bab143aaed3b8d3d6e3d38258"
@@ -5019,7 +5046,7 @@ postcss@7.0.21:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^6.0.9:
+postcss@^6.0.1, postcss@^6.0.9:
   version "6.0.23"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   integrity sha512-soOk1h6J3VMTZtVeVpv15/Hpdl2cBLX3CAw4TAbkpTJiNPk9YP/zWcD1ND+xEtvyuuvKzbxliTOIyvkSeSJ6ag==
@@ -5229,6 +5256,13 @@ reduce-css-calc@^2.1.8:
   dependencies:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
+
+reduce-function-call@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/reduce-function-call/-/reduce-function-call-1.0.3.tgz#60350f7fb252c0a67eb10fd4694d16909971300f"
+  integrity sha512-Hl/tuV2VDgWgCSEeWMLwxLZqX7OK59eU1guxXsRKTAyeYimivsKdtcV4fu3r710tpG5GmDKDhQ0HSZLExnNmyQ==
+  dependencies:
+    balanced-match "^1.0.0"
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
@@ -5775,6 +5809,13 @@ spdy@^4.0.2:
     http-deceiver "^1.2.7"
     select-hose "^2.0.0"
     spdy-transport "^3.0.0"
+
+speed-measure-webpack-plugin@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/speed-measure-webpack-plugin/-/speed-measure-webpack-plugin-1.5.0.tgz#caf2c5bee24ab66c1c7c30e8daa7910497f7681a"
+  integrity sha512-Re0wX5CtM6gW7bZA64ONOfEPEhwbiSF/vz6e2GvadjuaPrQcHTQdRGsD8+BE7iUOysXH8tIenkPCQBEcspXsNg==
+  dependencies:
+    chalk "^4.1.0"
 
 sprintf-js@~1.0.2:
   version "1.0.3"

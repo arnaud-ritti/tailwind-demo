@@ -1,0 +1,23 @@
+@layer components {
+  .btn{
+    @apply text-white font-bold py-2 px-6 rounded-sm;
+    @apply transition ease-in-out duration-700;
+    &.btn--outline{
+      @apply bg-transparent border hover:text-white;
+    }
+    &--red{
+      @apply bg-red-600 hover:bg-red-700;
+      &.btn--outline{
+        @apply border-red-600 text-red-600 hover:bg-red-700 hover:border-red-700;
+      }
+    }
+
+    &--blue{
+      @apply bg-blue-600 hover:bg-blue-700;
+      &.btn--outline{
+        @apply border-blue-600 text-blue-600 hover:bg-blue-700 hover:border-blue-700;
+      }
+    }
+    
+  }
+}

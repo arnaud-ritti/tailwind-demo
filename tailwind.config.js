@@ -1,20 +1,16 @@
 module.exports = {
-  purge: [
-    './src/**/*.html',
-    './assets/**/*.js',
-    './assets/**/*.css',
-    './assets/**/*.pcss',
-  ],
+  purge: false,
+  //purge: ["./src/**/*.html", "./assets/**/*.{js,css,pcss}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        'daily-dev-tips': "#F89283"
+        "daily-dev-tips": "#F89283"
       }
-    },
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
-}
+  plugins: []
+};
