@@ -20,7 +20,7 @@
     "autoprefixer": "^10.2.5",
     "babel-plugin-transform-runtime": "6.23.0",
     "concurrently": "^6.0.0",
-    "postcss": "^8.2.8",
+    "postcss": "^8.2.10",
     "postcss-at-rules-variables": "0.3.0",
     "postcss-custom-properties": "^11.0.0",
     "postcss-each": "1.0.0",
