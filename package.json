@@ -16,7 +16,7 @@
     "defaults"
   ],
   "dependencies": {
-    "@symfony/webpack-encore": "^1.1.2",
+    "@symfony/webpack-encore": "^4.1.1",
     "autoprefixer": "^10.2.5",
     "babel-plugin-transform-runtime": "6.23.0",
     "concurrently": "^6.0.0",
